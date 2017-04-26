@@ -1,0 +1,63 @@
+﻿/* FONT PATH*/
+@font-face {
+	font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot'); /* IE9*/
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+[class*="iconfont-"] { display: inline-block;}
+[class*="iconfont-"]:before {
+  display: inline-block;
+  font-family:"iconfont" !important;
+  font-weight: normal;
+  font-style: normal;
+  vertical-align: baseline;
+  line-height: 1;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+.iconfont-fw { text-align: center; width: 1.25em;}
+.iconfont-sm:before{font-size:150%;vertical-align:-10%}
+.iconfont-md:before{font-size:200%;vertical-align:-16%}
+.iconfont-lg:before{font-size:250%;vertical-align:-22%}
+/*icons*/
+.iconfont-bianji:before { content: "\e618"; }
+.iconfont-next:before { content: "\e600"; }
+.iconfont-prev:before { content: "\e601"; }
+.iconfont-plus:before { content: "\e617"; }
+.iconfont-praise:before { content: "\e616"; }
+.iconfont-address:before { content: "\e602"; }
+.iconfont-applyabort:before { content: "\e603"; }
+.iconfont-applymoney:before { content: "\e604"; }
+.iconfont-applynumber:before { content: "\e605"; }
+.iconfont-applypeople:before { content: "\e606"; }
+.iconfont-arrowright:before { content: "\e607"; }
+.iconfont-calendar:before { content: "\e608"; }
+.iconfont-collect:before { content: "\e609"; }
+.iconfont-comment:before { content: "\e60a"; }
+.iconfont-condition:before { content: "\e60b"; }
+.iconfont-discuss:before { content: "\e60c"; }
+.iconfont-homepage:before { content: "\e60d"; }
+.iconfont-like:before { content: "\e60e"; }
+.iconfont-note:before { content: "\e60f"; }
+.iconfont-plus-o:before { content: "\e610"; }
+.iconfont-search:before { content: "\e611"; }
+.iconfont-share:before { content: "\e612"; }
+.iconfont-triangleright:before { content: "\e613"; }
+.iconfont-album:before { content: "\e614"; }
+.iconfont-chart:before { content: "\e615"; }
+.iconfont-strategy:before { content: "\e619"; }
+.iconfont-activity:before { content: "\e61a"; }
+.iconfont-inter:before { content: "\e61b"; }
+.iconfont-plusos:before { content: "\e61c"; }
+.iconfont-fans:before { content: "\e61d"; }
+.iconfont-group:before { content: "\e61e"; }
+.iconfont-vip:before { content: "\e61f"; }
+.iconfont-gallery:before { content: "\e620"; }

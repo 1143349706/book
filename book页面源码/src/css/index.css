@@ -1,0 +1,33 @@
+/*----------index----------*/
+/*mod_subnav*/
+.mod_subnav{ background: #f7f7f7; margin-bottom:50px; }
+.mod_subnav .wrap{ padding:15px 0 50px; position: relative; }
+.mod_subnav h6{ font-size: 18px; text-align: center; font-weight: 400;}
+.mod_subnav ul{ position: absolute; bottom:0; width: 100%; margin-bottom:-16px; text-align: center; }
+.mod_subnav li{ display: inline-block; margin:0 20px; position: relative; }
+.mod_subnav li .am-btn{ letter-spacing:2px; border-radius: 3px; padding: 0 20px; line-height: 38px; }
+.mod_subnav li:after{ content:''; position: absolute; right:-38px; top:50%; margin-top:-9px; color:#999; width:28px; height: 19px; background: url("../images/bg_lan.png") no-repeat; bottom:0; display:block; }
+.mod_subnav li:last-child:after{ display: none; }
+@media only screen and (max-width:768px){
+	.mod_subnav{ margin-bottom:1rem;}
+	.mod_subnav .wrap{ padding-bottom:1rem; }
+	.mod_subnav ul{ position:relative; margin:0; text-align:left; margin-top:1rem; }
+	.mod_subnav li{ margin:0px 5px 5px 0;}
+	.mod_subnav li:after{ display:none;}
+	.mod_subnav li .am-btn{ font-size:1.4rem;}
+}
+
+/*mod_activity_list*/
+@media only screen and (max-width:640px){	
+	.mod_activity_list li{ margin-bottom:55px; }
+	.mod_activity_list li:last-child{ margin-bottom:0;}
+}
+@media only screen and (min-width:641px) and (max-width: 1024px){
+	.mod_activity_list ul{ margin-right:-20px; overflow: hidden; }
+	.mod_activity_list li{ width: 50%; float: left; padding-right:20px; }
+}
+@media only screen and (min-width:1025px){
+	.mod_activity_list ul{ margin-right:-20px; overflow: hidden; }
+	.mod_activity_list li{ width: 20%; float: left; padding-right:20px; }
+}
+

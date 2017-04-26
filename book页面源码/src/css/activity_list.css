@@ -1,0 +1,50 @@
+/*----------activity_list----------*/
+@media only screen and (min-width:1025px) and (max-width: 1200px){
+	.wrap_side{ float: left; width: 280px; }
+	.wrap_main{ float: right; width: 690px; }
+}
+@media only screen and (min-width:1201px){
+	.wrap_side{ float:left; width:320px; }
+	.wrap_main{ float:right; width:850px; }
+}
+
+/*activity_total*/
+.activity_total{ position: relative; width:100%; height:126px; background:#fc7650; color:#fff; margin-top:-60px; margin-bottom:15px;}
+.activity_total h6{ font-size:30px; color:#fff; padding:10px 0; text-align:center; font-weight:400;}
+.activity_total .icon_hot{ position: absolute; bottom:-50px; left:50%; margin-left:-50px; width:100px; height:100px; display:block; background:url("../images/icon_hot.png") no-repeat; }
+.activity_total .amount{ position:absolute; top:-96px; left:50%; margin-left:-50px; width:100px; height:96px; display:block; background:url("../images/prize.png") no-repeat; text-align:center; line-height:1.2;}
+.activity_total .amount b{ font-size:20px; font-weight:400; display:block;}
+
+/*activity_filter*/
+.activity_filter{ background:#f8f8f8; padding:30px 30px 30px; margin-bottom:5px;margin-top: 50px}
+.activity_filter .hd{ font-size:30px; font-weight:400;}
+.activity_filter .bd{ padding:20px 0 0 0;}
+.activity_filter .am-checkbox{ margin-top:0;}
+.view_more{ font-size:1.4rem; margin:-5px 0 10px 0; display:block; cursor:pointer;}
+.more_filter{ display:none;}
+@media only screen and (min-width:641px) and (max-width: 768px){
+	.activity_filter_group{ overflow:hidden; clear:both; background:#f8f8f8;}
+	.activity_filter_group .activity_filter{ float:left; width:50%; }
+}
+@media only screen and (min-width:769px) and (max-width: 1024px){
+	.activity_filter_group{ overflow:hidden; clear:both; background:#f8f8f8;}
+	.activity_filter_group .activity_filter{ float:left; width:25%; }
+}
+
+/*mod_activity_list*/
+@media only screen and (max-width:640px){	
+	.mod_activity_list li{ margin-bottom:55px; }
+	.mod_activity_list li:last-child{ margin-bottom:0;}
+}
+@media only screen and (min-width:641px) and (max-width: 1024px){
+	.mod_activity_list ul{ margin-right:-20px; overflow: hidden; }
+	.mod_activity_list li{ width: 50%; float: left; padding-right:20px; }
+}
+@media only screen and (min-width:1025px) and (max-width: 1200px){
+	.mod_activity_list ul{ margin-right:-20px; overflow: hidden; }
+	.mod_activity_list li{ width: 335px; float: left; margin-right:20px; }
+}
+@media only screen and (min-width:1201px){
+	.mod_activity_list ul{ margin-right:-20px; overflow: hidden; }
+	.mod_activity_list li{ width: 22%; float: left; margin-right:26px;}
+}

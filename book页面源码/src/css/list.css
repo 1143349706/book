@@ -1,0 +1,124 @@
+@media only screen and (min-width:1025px) and (max-width: 1200px){
+	.wrap_list_left{ float: left; width: 690px; }
+	.wrap_list_right{ float: right; width: 280px; }
+}
+@media only screen and (min-width:1201px){
+	.wrap_list_left{ float: left; width: 750px; }
+	.wrap_list_right{ float: right; width: 420px;margin-top: 10px;padding: 2px 11px; border: #C2C2C2 1px solid;}
+}
+
+/*mod_page*/
+.mod_page 							{ display: inline-block; overflow: hidden; margin:0px auto; text-align: center; font-size:12px; padding-left:1px;}
+.mod_page SPAN 						{ display: inline-block; overflow: hidden; margin-left:-1px; text-align: center; background:#fff; }
+.mod_page SPAN A 					{ display: inline-block; overflow: hidden; }
+.mod_page SPAN A:hover				{ text-decoration:none;}
+.mod_page SPAN.page_pre_nolink	{ PADDING: 0px 11px; BORDER: #e4e1cc 1px solid; LINE-HEIGHT: 28px; HEIGHT: 30px; COLOR: #999; }
+.mod_page SPAN.page_next_nolink 	{ PADDING: 0px 11px; BORDER: #e4e1cc 1px solid; LINE-HEIGHT: 28px; HEIGHT: 30px; COLOR: #999; }
+.mod_page SPAN.page_pre A 		{ PADDING: 0px 11px; BORDER: #e4e1cc 1px solid; LINE-HEIGHT: 28px; HEIGHT: 30px; COLOR: #ff6600; background:#fcfafa }
+.mod_page SPAN.page_pre A:visited { COLOR: #ff6600; TEXT-DECORATION: none; }
+.mod_page SPAN.page_pre A:hover 	{ background:#f0f0f0; COLOR: #ff6600; }
+.mod_page SPAN.page_pre			{ HEIGHT: 30px; }
+.mod_page SPAN.page_next			{ HEIGHT: 30px; }
+.mod_page SPAN.page_next A 		{ PADDING: 0px 11px; BORDER: #e4e1cc 1px solid; LINE-HEIGHT: 28px; HEIGHT: 30px; COLOR: #ff6600; background:#fcfafa}
+.mod_page SPAN.page_next A:visited{ COLOR: #ff6600; TEXT-DECORATION: none; }
+.mod_page SPAN.page_next A:hover	{ background:#f0f0f0; COLOR: #ff6600; }
+.mod_page SPAN.page_num_nonce		{ PADDING: 0px 12px; BACKGROUND: #ff6600; LINE-HEIGHT: 30px; HEIGHT: 30px; COLOR: #ffffff; FONT-WEIGHT: bold; }
+.mod_page SPAN.page_num 			{ HEIGHT: 30px; COLOR: #83766d; }
+.mod_page SPAN.page_num A			{ PADDING: 0px 11px; BORDER: #e4e1cc 1px solid; LINE-HEIGHT: 28px; HEIGHT: 30px; COLOR: #ff6600; background:#fcfafa}
+.mod_page SPAN.page_num A:visited { COLOR: #ff6600; TEXT-DECORATION: none;}
+.mod_page SPAN.page_num A:hover 	{ background:#f0f0f0; COLOR: #ff6600; }
+.mod_page SPAN.page_amount		{ background-color:#434a52; COLOR: #fff; PADDING: 0px 11px; BORDER: #434a52 1px solid; LINE-HEIGHT: 28px; HEIGHT: 30px; }
+.mod_page SPAN.page_amount b		{ font-weight:normal;}
+
+/*list_article*/
+.list_article li{ background-color: #fff; border-radius: 10px 0 0 10px; position:relative; margin-bottom:20px; }
+.list_article .image_group{ float:left; background-color:#e0e0e0;  border-radius: 10px 0 0 10px; position:relative; }
+.list_article .item_image { border-radius: 8px 0 0 8px; overflow:hidden; display:block;}
+.list_article .item_image a { width:210px; height:265px;}
+.list_article .badge{ position:absolute; left:0px; top:1px;}
+.list_article .badge a{ padding:1px 10px; border-radius:5px; font-size:12px; margin:0px 3px; color:#fff; }
+.list_article .badge a:nth-child(1){ background-color:#FF4500; }
+.list_article .badge a:nth-child(2){ background-color:#6e9701; }
+.list_article .info_group{ margin-left:270px; }
+.list_article h5{ margin: 0px 10px 20px 0px; font-size:20px; font-weight:400; color:#282828; padding-top:20px; }
+.list_article p{ margin:0 10px 0 0px; font-size:12px; color:#9b9b9b;}
+.list_article .item_more{ margin:20px 0 0 0px;}
+@media only screen and (max-width:768px){
+	.list_article li{ height:auto !important; border-radius:10px; overflow:hidden;}
+	.list_article .item_image a{ width:100%; height:200px;}
+	.list_article .image_group{ float:none; padding-left:0; border-radius:10px 10px 0 0; }
+	.list_article .item_image{ border-radius:10px 10px 0 0;}
+	.list_article .info_group{ margin-left:0; padding:0 1.5rem;}
+	.list_article .item_more{ margin-bottom:1.5rem; }
+}
+
+/*mod_list_comment*/
+.mod_list_comment li{ height:265px; }
+.mod_list_comment .avatar_group{ position:absolute; bottom:20px; left: 248px;}
+.mod_list_comment h5 span{ color:#647cbb; }
+.mod_list_comment .item_more{ text-align:right; margin-right:30px;}
+.mod_list_comment .item_avatar{ float:left;}
+.mod_list_comment .item_plus{ float:left; margin-left:10px; margin-top:20px;}
+.mod_list_comment .item_praise{ float:left; margin-left:10px; margin-top:20px;}
+@media only screen and (max-width:768px){
+	.mod_list_comment .avatar_group{ position:static; bottom:auto; left:auto; }
+	.mod_list_comment .item_avatar{ position:absolute; top:165px; right:15px;}
+	.mod_list_comment .item_plus{ position:absolute; left:5px; bottom:10px;}
+	.mod_list_comment .item_praise{ position:absolute; left:55px; bottom:10px;}
+	.mod_list_comment .item_more{ margin-right:0; margin-bottom:1.5rem; }
+}
+
+/*mod_list_strategy*/
+.mod_list_strategy li{ height:265px; background-image:url("../images/triangle_b_r.png"); background-position:bottom right; background-repeat:no-repeat; }
+.mod_list_strategy .avatar_group{ position:absolute; bottom:20px; left: 248px;}
+.mod_list_strategy h5 span{ color:#bf497a; }
+.mod_list_strategy .item_more{ text-align:right; margin-right:30px;}
+.mod_list_strategy .item_avatar{ float:left;}
+@media only screen and (max-width:768px){
+	.mod_list_strategy .avatar_group{ position:static; bottom:auto; left:auto; }
+	.mod_list_strategy .item_avatar{ position:absolute; top:165px; right:15px;}
+	.mod_list_strategy .item_more{ margin-right:0; margin-bottom:1.5rem; text-align:left; }
+}
+
+/*mod_list_group*/
+.mod_list_group li{ height:265px; }
+.mod_list_group .avatar_group{ position:absolute; bottom:30px; left: 270;}
+.mod_list_group .avatar_group .item_avatar{ float:left; margin:0px 2px;}
+.mod_list_group .avatar_group .avatar_amount{ float:left; margin-left:10px; color:#fc7650; line-height:40px; font-size:1.4rem; }
+@media only screen and (max-width:768px){
+	.mod_list_group .info_group{ margin-bottom:1.5rem;}
+	.mod_list_group .avatar_group{ position:static; bottom:auto; left:auto; padding:0 1rem; overflow:hidden; margin-bottom:5px;}
+	.mod_list_group .item_more{ position:absolute; right:1rem; bottom:1rem; margin:0;}
+}
+
+/*mod_side_banner*/
+.mod_side_banner{ margin-bottom:15px; }
+.mod_side_banner img{ width:100%; display:block;}
+@media only screen and (min-width:769px) and (max-width: 1024px){
+	.mod_side_banner_group{ clear:both; margin:1rem auto;}
+	.mod_side_banner{ float:left; width:50%; padding:0 1rem;}
+}
+
+/*mod_side_banner1*/
+.mod_side_banner1{ margin-bottom:20px; position:relative; width:100%; height:320px; background-repeat:no-repeat; background-position:center; background-size:cover; overflow:hidden;}
+.mod_side_banner1 a{ width:100%; height:100%; display:block;}
+.mod_side_banner1 h6{ font-size:16px; color:#303030; text-align:center; width:176px; position:absolute; left:50%; margin-left:-88px; bottom:12px; height:32px; line-height:32px; }
+
+/*mod_side_banner2*/
+.mod_side_banner2{ margin-bottom:20px; position:relative; width:100%; height:320px; background-repeat:no-repeat; background-position:center; background-size:cover; overflow:hidden;}
+.mod_side_banner2 a{ width:100%; height:100%; display:block;}
+.mod_side_banner2 h6{ font-size:36px; color:#434a52; text-align:center; width:244px; position:absolute; left:50%; margin-left:-122px; bottom:180px; font-weight:400; letter-spacing:5px; }
+.mod_side_banner2 p { font-size:22px; color:#434a52; text-align:center; width:244px; position:absolute; left:50%; margin-left:-122px; bottom:150px; letter-spacing:2px; }
+
+/*mod_side_topuser*/
+.box_tit_c{ margin-top:20px; margin-bottom:20px; position:relative; }
+.box_tit_c .tit_name{ float:left; }
+.box_tit_c .tit_more{ float:right; }
+.box_tit_c .tit_top{ background:url("../images/tit_top.png") no-repeat; width:70px; height:40px;}
+.mod_side_topuser{ }
+.mod_side_topuser li{ height:100px; border-right:5px solid #e0e0e0; background-color:#fff; margin-bottom:20px; padding:10px 15px; position:relative; }
+.mod_side_topuser .item_avatar{ position:absolute; left:15px; top:47%; margin-top:-33px; width: 50px}
+.mod_side_topuser h5{ margin-left:80px; color:#434a52; font-size:16px; font-weight:400;}
+.mod_side_topuser h6{ margin-left:80px; color:#434a52; font-size:14px; font-weight:400;}
+.mod_side_topuser p { margin-left:80px; color:#434a52; font-size:14px; font-weight:400;}
+.mod_side_topuser p span{ margin-right:10px;}

@@ -1,0 +1,16 @@
+/*mod_activity_list*/
+.mod_activity_list{ margin-bottom:50px; margin-top:20px; }
+.mod_activity_list .item{ position: relative; margin-top:30px; }
+.mod_activity_list .item_image{ }
+.mod_activity_list .item_image a{ width:100%; height:270px;}
+
+
+.mod_activity_list .item_summery{ height:55px; padding:10px 0; background:#f8f8f8; text-align: center; border-bottom: 1px solid #d1d1d1; }
+.mod_activity_list .item_summery h6{ font-size: 14px; font-weight: 400;}
+.mod_activity_list .item_summery p{ font-size: 12px; }
+.mod_activity_list .item_time{ position: absolute;  top:0px; width: 52px; height: 35px; text-align: center; background:#B03060; color: #fff; }
+
+.mod_activity_list .item_time b{ margin: 0; font-weight: 400; }
+.mod_activity_list .item.active .item_summery,.mod_activity_list .item:hover .item_summery{ background: #fff; border-bottom: 1px solid #fc7650; }
+.mod_activity_list .item.active .item_image a{ opacity:0.7;}
+
